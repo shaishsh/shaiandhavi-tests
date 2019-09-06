@@ -133,7 +133,7 @@ describe('Checking functionllity in index.js', function() {
 
             const res = await indexObj.promiseFunc();
             
-            res.should.equal(true);
+            res.should.equal(false);
 
         });
     });
